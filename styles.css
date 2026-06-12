@@ -726,6 +726,10 @@ footer::before {
 }
 @media (max-width: 768px) {
     :root { --sec-pad: 4rem 1.25rem; }
+    .hero {
+        background-attachment: scroll;
+        background-position: center top;
+    }
     .hero::before, .hero::after { width: 100px; height: 100px; }
     .hero-names { letter-spacing: -0.02em; }
     .countdown { gap: 0.5rem; }
