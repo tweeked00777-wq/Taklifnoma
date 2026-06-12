@@ -1,7 +1,7 @@
 :root {
-    --blue-dark:    #0C1F3F;
-    --blue-mid:     #1B3D6E;
-    --blue-light:   #2456A4;
+    --blue-dark:    #3D0A0A;
+    --blue-mid:     #7B1A1A;
+    --blue-light:   #B52222;
     --gold:         #C9A55A;
     --gold-light:   #E8C97A;
     --gold-dark:    #9B7B35;
@@ -13,7 +13,7 @@
     --text-muted:   #7A6248;
     --white:        #FFFFFF;
     --hero-overlay:    rgba(10, 22, 48, 0.70);
-    --detail-overlay:  rgba(11, 31, 63, 0.86);
+    --detail-overlay:  rgba(48, 10, 10, 0.86);
     --font-head:   'Cormorant Garamond', 'Playfair Display', Georgia, serif;
     --font-disp:   'Playfair Display', 'Cormorant Garamond', Georgia, serif;
     --font-body:   'Lato', 'Helvetica Neue', Arial, sans-serif;
@@ -156,7 +156,7 @@ a      { color: inherit; text-decoration: none; }
     text-align: center;
     padding: 5rem 1.5rem 8rem;
     overflow: hidden;
-    background-color: var(--blue-dark);
+    background-color: #0C1F3F;
     background-image:
         linear-gradient(var(--hero-overlay), var(--hero-overlay)),
         url('images/hero-bg.jpg');
@@ -315,7 +315,7 @@ a      { color: inherit; text-decoration: none; }
     border: 1px solid var(--cream-dark);
     border-radius: var(--radius);
     padding: clamp(2.2rem, 6vw, 4.5rem) clamp(1.75rem, 5vw, 4rem);
-    box-shadow: 0 6px 70px rgba(27,61,110,0.07), 0 1px 0 var(--cream-dark);
+    box-shadow: 0 6px 70px rgba(110,27,27,0.07), 0 1px 0 var(--cream-dark);
     position: relative;
 }
 .inv-frame .corner {
@@ -529,12 +529,12 @@ a      { color: inherit; text-decoration: none; }
     border-radius: var(--radius);
     padding: 2rem 1.5rem;
     text-align: center;
-    box-shadow: 0 2px 24px rgba(27,61,110,0.06);
+    box-shadow: 0 2px 24px rgba(110,27,27,0.06);
     transition: var(--transition);
 }
 .note-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 36px rgba(27,61,110,0.1);
+    box-shadow: 0 10px 36px rgba(110,27,27,0.1);
     border-color: var(--cream-dark);
 }
 .note-icon  { font-size: 2rem; margin-bottom: 0.75rem; }
@@ -567,7 +567,7 @@ a      { color: inherit; text-decoration: none; }
     box-shadow:
         0 0 0 6px var(--cream-dark),
         0 0 0 7px rgba(201,165,90,0.25),
-        0 32px 80px rgba(27,61,110,0.14);
+        0 32px 80px rgba(110,27,27,0.14);
     max-width: 480px;
     width: 90%;
 }
@@ -657,7 +657,7 @@ footer::before {
     align-items: center;
     gap: 0.8rem;
     padding: 0.55rem 1.2rem 0.55rem 0.55rem;
-    background: rgba(10, 22, 48, 0.88);
+    background: rgba(48, 10, 10, 0.88);
     border: 1px solid rgba(201,165,90,0.35);
     border-radius: 60px;
     backdrop-filter: blur(20px);
