@@ -729,6 +729,8 @@ footer::before {
     .hero {
         background-attachment: scroll;
         background-position: center top;
+        justify-content: flex-end;
+        padding-bottom: 6rem;
     }
     .hero::before, .hero::after { width: 100px; height: 100px; }
     .hero-names { letter-spacing: -0.02em; }
